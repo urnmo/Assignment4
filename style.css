@@ -1,0 +1,10 @@
+
+#stbar {background-image: url("assets/perforated-bottom@2x.png");
+background-repeat: no-repeat;
+}
+
+#lowerboxes {background-image: url("assets/perforated-bottom@2x.png");
+background-repeat: no-repeat;}
+
+
+body {background-color: #dddddd}
