@@ -3,51 +3,57 @@
         <head>
             <title>Skinny Ties</title>
             <link rel="stylesheet" type="text/css" href="style.css">
+            <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700' rel='stylesheet' type='text/css'>
         </head>
    
 <body>   
-<header>
-    <div id="topbar"> 
+    <header>
+    <div  class="gutter" id="topbar"> 
     <nav>
-        <ul>
-    <button> "Free Shipping" </button>
-    <li id="topbar">Plus Spring Savings:</li>
-    <li id="topbar"><a href="#">$10 off $50 order!</a></li>
-    <li id="topbar"><a href="#">$20 off $100 order!</a></li>
-    <li id="topbar"><a href="#">$30 off $150 order!</a></li>
+        <ul id="orange">
+            <button id="freeshipping">Free Shipping</button>
+            <li id="springsavings">Plus Spring Savings:</li>
+            <li id="springsavings"><a href="#">$10 off $50 order!</a></li>
+            <li id="springsavings"><a href="#">$20 off $100 order!</a></li>
+            <li id="springsavings"><a href="#">$30 off $150 order!</a></li>
         </ul>
     </nav>
 </div>
 
-    <div id="stbar">
+    <div  class="gutter" id="stbar">
         <img id="logo" src="assets/logo-stack@2x.png">
-        <nav>
+        <nav id="dropdowns">
             <select name="Collection">
+                <option value="Collection">Collection</option>
                 <option value="Rolo">Rolo</option>
                 <option value="Lauph Rauren">Lauph Rauren</option>
                 <option value="Hommy Tillfigure">Hommy Tillfigure</option>
                 <option value="Ass Clown">Ass Clown</option>
             </select>
             <select name="Color">      
+                <option value="Color">Color</option>
                 <option value="Red">Red</option>
                 <option value="Blue">Blue</option>
                 <option value="Yellow">Hommy Yellow</option>
                 <option value="Green">Green</option>
             </select>
             <select name="Width">
+                <option value="Width">Width</option>
                 <option value="Thin">Thin</option>
                 <option value="Medium">Medium</option>
                 <option value="Wide">Wide</option>
                 <option value="1970's Dad">1970's Dad</option>
             </select>
              <select name="Fabric">
-                <option value="Silk">Silk</option>
+                <option value="Fabric">Fabric</option>
+                <option value="Thin">Thin</option>
                 <option value="Wool">Wool</option>
                 <option value="Polyester">Polyester</option>
                 <option value="Skin">Skin</option>
             </select>
              <select name="Pattern">
-                <option value="Stripes">Stripes</option>
+                <option value="Pattern">Pattern</option>
+                <option value="Thin">Thin</option>
                 <option value="Solids">Solids</option>
                 <option value="Plaid">Plaid</option>
                 <option value="That Guy">That Guy</option>
@@ -56,7 +62,7 @@
             <input type="text" name="search" placeholder="Search..">
         </nav>
     </div>
-    <div>
+    <div  class="gutter">
         <ul>
             <li id="signin"><a href="#">SIGN IN</a></li>
             <li id="signin"><a href="#">REGISTER</a></li>
@@ -67,7 +73,7 @@
 </header>  
 
 
-    <section id="longties">
+<section  class="gutter" id="longties">
         <figure>
             <img src="assets/black@1.5x.jpg">
             <figcaption>Black</figcaption>
@@ -105,9 +111,9 @@
             <figcaption>Striped</figcaption>
         </figure>
     <h1>Start dressing better.</h1>
-    </section>
+</section>
     
-    <section id="accessories">
+<section  class="gutter" id="accessories">
            <figure>
             <img src="assets/bow-ties.jpg">
             <figcaption>Bow Ties</figcaption>
@@ -122,10 +128,10 @@
         </figure>
     <p>We started designing and selling neckties in 1971.</p>
     <p>After 44 years, we're still family-owned and operated.</p>
-<li id="view our story"><a href="#">VIEW OUR STORY</a></li>
- </section>
+    <li id="view our story"><a href="#">VIEW OUR STORY</a></li>
+</section>
 
-<section id="lowerboxes"> 
+<section  class="gutter" id="lowerboxes"> 
         <figure> 
             <img src="assets/new.jpg">
             <figcaption>Weekly Pick</figcaption>
@@ -136,14 +142,14 @@
             <figcaption>Loop Us In</figcaption>
             <p>Tightly knotted or hanging loose? Fitted suit or selsvedge denim? Share your style with us.</p>
         </figure>
-
+        <div>
             <h1>The Quarterly</h1>      
             <p>Our newsletter is simple and brief for the hard-pressed gentleman.</p>
             <form>
             <input type="email" name="email" placeholder="name@example.com">
             </form>
             <button>SUBSCRIBE ME</button>
-        
+        </div>
         <figure> 
             <img src="assets/style-guide@1.5x.jpg">
             <figcaption>Style Guide</figcaption>
@@ -152,7 +158,7 @@
         </figure>
 </section>
 
-<section id="bottom">
+<section  class="gutter" id="bottom">
     <footer>
          <div>
             <p>Shop By</p>
@@ -184,8 +190,8 @@
             <a href="">Shopping Info</a>
             <a href="">Returns</a>
          </div>
-
-        <section id=bottomgray>
+</section>
+<section  class="gutter" id=bottomgray>
             <div>
                 <p>We're here for you.<p>
                 <p>help@skinnyties.com</p>
@@ -193,7 +199,7 @@
                 <button>Contact Us</button>
             </div>
 
-            <p>©2015 Skinny Ties. All rights reserved.<p>
+            <p>&copy;2015 Skinny Ties. All rights reserved.<p>
             <p>Made by Gravity Department<p>
     
     </footer>

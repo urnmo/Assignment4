@@ -1,10 +1,58 @@
 
-#stbar {background-image: url("assets/perforated-bottom@2x.png");
-background-repeat: no-repeat;
+figure {margin: 0}
+
+.gutter {padding: 0 5%;
+box-sizing: border-box}
+
+body {font-family: 'Ubuntu', sans-serif;
+background-color: #ffffff;
+margin: 0
 }
+
+#orange {flex-grow: 1;
+flex-direction: row;
+display: flex;
+align-items: center;
+margin: 0;
+font-size: .75em;
+padding: 1%;
+}
+
+#topbar {background-color: #fa6938;
+color: white;
+height: 10%;}
+
+#topbar nav {width: 100%}
+
+#orange a {text-decoration: none;
+color: inherit}
+
+#springsavings {list-style: none; 
+text-decoration: none;
+padding: 1%
+}
+
+#freeshipping {background-color: #c7532c;
+border-style: none;
+border-radius:3px;
+color: white;
+padding:.5;
+text-align: center;
+text-transform: uppercase;
+margin: 0%}
+
+#stbar {background-image: url("assets/perforated-bottom@2x.png");
+background-repeat: repeat-x;
+background-color: #ffffff;
+}
+
+#dropdowns {border: 0;
+-webkit-appearance: none;}
+
+#logo {max-width:65px;
+padding: 1%}
+
+
 
 #lowerboxes {background-image: url("assets/perforated-bottom@2x.png");
 background-repeat: no-repeat;}
-
-
-body {background-color: #dddddd}
