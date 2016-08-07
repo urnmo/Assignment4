@@ -14,9 +14,14 @@ flex-direction: row;
 display: flex;
 align-items: center;
 margin: 0;
-font-size: .75em;
+font-size: .5em;
 padding: 1%;
 }
+#cart {align-items: right;
+margin: 0 0 0 10%}
+
+#search {align-items: right;
+margin: 0 0 0 2%}
 
 #topbar {background-color: #fa6938;
 color: white;
@@ -44,15 +49,78 @@ margin: 0%}
 #stbar {background-image: url("assets/perforated-bottom@2x.png");
 background-repeat: repeat-x;
 background-color: #ffffff;
+padding: 5px
 }
 
-#dropdowns {border: 0;
--webkit-appearance: none;}
+#descriptors p {margin: 0;
+padding: 2%}
 
-#logo {max-width:65px;
-padding: 1%}
+#descriptors {flex-grow: 1;
+flex-direction: row;
+display: flex;
+align-items: center;
+margin: 0;
+font-size: 1em;
+padding: 1%;
+}
 
 
+#logo {max-width:100px;}
+
+#aasign {padding: 1%;}
+#asignin {display: flex;
+margin: 0;
+justify-content: flex-end;
+
+}
+
+
+#signin {text-decoration: none;
+padding: 0;
+flex-grow: 1;
+flex-direction: row;
+text-align: right;
+}
+
+#signin2 {padding: 1%;
+text-decoration: none;
+color: gray
+}
+
+ul
+{list-style-type: none;
+text-decoration: none}
 
 #lowerboxes {background-image: url("assets/perforated-bottom@2x.png");
 background-repeat: no-repeat;}
+
+#longties {height: 10%;
+flex-grow: 0;
+flex-direction: row;
+display: inline-block;
+align-content: center;
+align-items: flex-start;
+margin: 0;
+font-size: 1em;
+padding: 0% 1% 2% 1%;
+
+}
+
+#tiebank {display: flex;
+align-items: center;
+justify-content: center}
+
+#dress {display: block;
+background-color: #f4f4f4}
+
+figcaption {padding: 0;
+text-align: center;
+display: block
+}
+
+h1 {display: block;
+text-align: center;
+align-self: flex-end; 
+font-size: 6em;
+padding: 3%;
+margin: 0}
