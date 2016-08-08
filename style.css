@@ -59,64 +59,67 @@ padding: 2%}
 flex-direction: row;
 display: flex;
 align-items: center;
+padding: 2%;
+}
+
+#descriptors p {font-size: 4em;
+}
+
+#aasign {
 margin: 0;
-font-size: 1em;
-padding: 1%;
+position: absolute;
+right: 3%;
 }
 
 
-#logo {max-width:100px;}
-
-#aasign {padding: 1%;}
 #asignin {display: flex;
 margin: 0;
-justify-content: flex-end;
-
+width: 15%;
+float: right
 }
 
-
-#signin {text-decoration: none;
-padding: 0;
+#signin1 {text-decoration: none;
+padding: 3%;
 flex-grow: 1;
 flex-direction: row;
 text-align: right;
+color: gray;
+display: inline;
+font-size: .5em;
 }
 
-#signin2 {padding: 1%;
+#signin2 {padding: 3%;
 text-decoration: none;
-color: gray
+color: gray;
+display: inline;
+font-size: .5em;
 }
 
 ul
 {list-style-type: none;
 text-decoration: none}
 
-#lowerboxes {background-image: url("assets/perforated-bottom@2x.png");
-background-repeat: no-repeat;}
-
-#longties {height: 10%;
-flex-grow: 0;
+#tiebank {display: flex;
 flex-direction: row;
-display: inline-block;
-align-content: center;
-align-items: flex-start;
-margin: 0;
-font-size: 1em;
-padding: 0% 1% 2% 1%;
-
+justify-content: center;
 }
 
-#tiebank {display: flex;
-align-items: center;
-justify-content: center}
+#tiebank figcaption {text-align: center;
+font-size: 1em;
+font-weight: 300;
+}
+#black {width: 200px;}
+#blue {width: 200px;}
+#collegiate {width: 200px;}
+#cotton {width: 200px;}
+#favorites {width: 200px;}
+#graphic {width: 200px;}
+#plaid {width: 200px;}
+#silk {width: 200px;}
+#striped {width: 200px;}
 
 #dress {display: block;
 background-color: #f4f4f4}
-
-figcaption {padding: 0;
-text-align: center;
-display: block
-}
 
 h1 {display: block;
 text-align: center;
@@ -124,3 +127,82 @@ align-self: flex-end;
 font-size: 6em;
 padding: 3%;
 margin: 0}
+
+#accessories figcaption {position: absolute;
+top: 10%;
+right: 5%;
+padding: 2%;
+font-size: 3em;
+display: inline-block;
+width: 30%;
+font-weight: 700;
+text-align: right
+}
+
+#accessories figure {
+position: relative;
+}
+#bowtie {width: 800px}
+#pocket {width: 800px}
+#tiebar {width: 800px}
+#accessories {display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 3%; 
+
+}
+
+
+
+#what p {text-align: center;
+font-size: 5em;
+font-style: italic;
+margin: 0;
+padding: 1%;
+
+}
+
+#what a {text-decoration: none;
+color: deepskyblue;
+
+}
+#what {list-style: none;
+}
+
+#what li {text-align: center;
+font-size: 1em;
+padding: 2% 0 10% 0}
+
+#thehell {background-image: url("assets/hatch-light@2x.png");
+background-repeat: repeat-x;
+padding: 5%}
+
+#perf {background-image: url("assets/perforated-bottom@2x.png");
+background-repeat: repeat-x;
+padding: 1%}
+
+#lowerboxes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer {display: flex;
+flex-direction: row;}
+
+footer div {display: flex;
+flex-direction: column;
+
+padding: 1%}
+
+footer a {text-decoration: none;
+color: gray;}
+
+#graybox {background-color: #a2afc0;
+color: white;
+font-size: 2em;}
+
+#lastlines p {display: inline-block;
+padding: 1%;
+font-size: .25em;
+color: grey}
