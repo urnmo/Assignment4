@@ -1,0 +1,22 @@
+
+#footer {@extend .gutter;}
+
+footer {display: flex;
+flex-direction: row;}
+
+footer div {display: flex;
+flex-direction: column;
+
+padding: 1%}
+
+footer a {text-decoration: none;
+color: gray;}
+
+#graybox {background-color: #a2afc0;
+color: white;
+font-size: 2em;}
+
+#lastlines p {display: inline-block;
+padding: 1%;
+font-size: .25em;
+color: grey;}

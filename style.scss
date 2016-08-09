@@ -1,0 +1,14 @@
+$gutter-size: 5%;
+
+@import 'base';
+@import 'header';
+@import 'body';
+@import 'footer';
+
+@media (max-width: 640px) 
+{
+  section {
+       width: 100%;
+       display: block;
+    }
+}

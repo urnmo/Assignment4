@@ -1,0 +1,219 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ffffff;
+  margin: 0; }
+
+.gutter, header div, section, #footer {
+  padding: 0 5%;
+  box-sizing: border-box; }
+
+.nodecoration, header a, header li {
+  text-decoration: none;
+  color: inherit;
+  list-style: none; }
+
+@media (max-width: 640px) {
+  section {
+    width: 100%;
+    display: block;
+    background-color: red; } }
+header nav {
+  width: 100%;
+  min-width: 75%;
+  color: white;
+  height: 10%;
+  background-color: #fa6938; }
+header ul {
+  flex-grow: 1;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: .5em;
+  padding: 1%; }
+header p {
+  font-size: 4em;
+  margin: 0;
+  padding: 2%; }
+
+#logo {
+  width: 10%;
+  display: inline-block; }
+
+#freeshipping {
+  background-color: #c7532c;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  padding: .5;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0%; }
+
+#cart {
+  align-items: right;
+  margin: 0 0 0 10%; }
+
+#search {
+  align-items: right;
+  margin: 0 0 0 2%; }
+
+#signin1 {
+  text-decoration: none;
+  padding: 3%;
+  flex-grow: 1;
+  flex-direction: row;
+  text-align: right;
+  color: gray;
+  display: inline;
+  font-size: .5em; }
+
+#signin2 {
+  padding: 3%;
+  text-decoration: none;
+  color: gray;
+  display: inline;
+  font-size: .5em; }
+
+#aasign {
+  margin: 0;
+  position: absolute;
+  right: 5%; }
+
+#asignin {
+  display: flex;
+  margin: 0;
+  width: 15%;
+  float: right; }
+
+#descriptors {
+  flex-grow: 1;
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  padding: 2%; }
+
+#stbar {
+  background-image: url("assets/perforated-bottom@2x.png");
+  background-repeat: repeat-x;
+  background-color: #ffffff;
+  padding: 5px; }
+
+#tiebank {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#tiebank figcaption {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300; }
+
+#tiebank img {
+  width: 175px;
+  margin: 0;
+  padding: 0, 3%;
+  margin: 0, 3%; }
+
+#dress {
+  display: block;
+  background-color: #f4f4f4;
+  margin: 0; }
+
+h1 {
+  display: block;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 6em;
+  padding: 3%;
+  margin: 0; }
+
+figure {
+  margin: 0 1%; }
+
+#accessories figure {
+  position: relative; }
+
+#accessories img {
+  width: 800px; }
+
+#accessories figcaption {
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  padding: 0;
+  font-size: 3em;
+  display: inline;
+  width: 30%;
+  font-weight: 700;
+  text-align: right; }
+
+#accessories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3%; }
+
+#what p {
+  text-align: center;
+  font-size: 5em;
+  font-style: italic;
+  margin: 0;
+  padding: 1%; }
+
+#what a {
+  text-decoration: none;
+  color: deepskyblue; }
+
+#what {
+  list-style: none; }
+
+#what li {
+  text-align: center;
+  font-size: 1em;
+  padding: 2% 0 5% 0; }
+
+#thehell {
+  background-image: url("assets/hatch-light@2x.png");
+  background-repeat: repeat-x;
+  padding: 1%; }
+
+#perf {
+  background-image: url("assets/perforated-bottom@2x.png");
+  background-repeat: repeat-x;
+  padding: 1%; }
+
+#lowerboxes {
+  display: flex;
+  flex-direction: row; }
+
+footer {
+  display: flex;
+  flex-direction: row; }
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  padding: 1%; }
+
+footer a {
+  text-decoration: none;
+  color: gray; }
+
+#graybox {
+  background-color: #a2afc0;
+  color: white;
+  font-size: 2em; }
+
+#lastlines p {
+  display: inline-block;
+  padding: 1%;
+  font-size: .25em;
+  color: grey; }
+
+@media (max-width: 640px) {
+  section {
+    width: 100%;
+    display: block; } }
+
+/*# sourceMappingURL=out.css.map */

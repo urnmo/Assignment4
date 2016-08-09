@@ -1,0 +1,89 @@
+#stbar {background-image: url("assets/perforated-bottom@2x.png");
+background-repeat: repeat-x;
+background-color: #ffffff;
+padding: 5px
+}
+section {@extend .gutter;}
+
+#tiebank {display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#tiebank figcaption {text-align: center;
+font-size: 1em;
+font-weight: 300;}
+
+#tiebank img {width: 175px;
+            margin: 0;
+            padding: 0, 3%;
+            margin: 0, 3%;}
+
+#dress {display: block;
+background-color: #f4f4f4;
+margin: 0;}
+
+h1 {display: block;
+text-align: center;
+align-self: flex-end; 
+font-size: 6em;
+padding: 3%;
+margin: 0;}
+
+figure {margin: 0 1%;}
+
+
+#accessories figure {
+position: relative;
+}
+#accessories img {width: 800px;}
+
+#accessories figcaption 
+{position: absolute;
+top: 8%;
+right: 8%;
+padding: 0;
+font-size: 3em;
+display: inline;
+width: 30%;
+font-weight: 700;
+text-align: right
+}
+
+#accessories {display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 3%;}
+
+#what p {text-align: center;
+font-size: 5em;
+font-style: italic;
+margin: 0;
+padding: 1%;
+
+}
+
+#what a {text-decoration: none;
+color: deepskyblue;
+
+}
+#what {list-style: none;
+}
+
+#what li {text-align: center;
+font-size: 1em;
+padding: 2% 0 5% 0}
+
+#thehell {background-image: url("assets/hatch-light@2x.png");
+background-repeat: repeat-x;
+padding: 1%}
+
+#perf {background-image: url("assets/perforated-bottom@2x.png");
+background-repeat: repeat-x;
+padding: 1%}
+
+#lowerboxes {
+    display: flex;
+    flex-direction: row;
+
+}

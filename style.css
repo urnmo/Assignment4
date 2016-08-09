@@ -1,15 +1,16 @@
 
-figure {margin: 0}
+/*figure {margin: 0}
 
-.gutter {padding: 0 5%;
+/*.gutter {padding: 0 5%;
 box-sizing: border-box}
 
 body {font-family: 'Ubuntu', sans-serif;
 background-color: #ffffff;
 margin: 0
 }
+*/
 
-#orange {flex-grow: 1;
+/*#orange {flex-grow: 1;
 flex-direction: row;
 display: flex;
 align-items: center;
@@ -23,36 +24,36 @@ margin: 0 0 0 10%}
 #search {align-items: right;
 margin: 0 0 0 2%}
 
-#topbar {background-color: #fa6938;
+/*#topbar {background-color: #fa6938;
 color: white;
-height: 10%;}
+height: 10%;}*/
 
-#topbar nav {width: 100%}
+/*#topbar nav {width: 100%}*/
 
-#orange a {text-decoration: none;
-color: inherit}
+/*#orange a {text-decoration: none;
+color: inherit}*/
 
-#springsavings {list-style: none; 
+/*#springsavings {list-style: none; 
 text-decoration: none;
 padding: 1%
-}
+}*/
 
-#freeshipping {background-color: #c7532c;
+/*#freeshipping {background-color: #c7532c;
 border-style: none;
 border-radius:3px;
 color: white;
 padding:.5;
 text-align: center;
 text-transform: uppercase;
-margin: 0%}
+margin: 0%}*/
 
-#stbar {background-image: url("assets/perforated-bottom@2x.png");
+/*#stbar {background-image: url("assets/perforated-bottom@2x.png");
 background-repeat: repeat-x;
 background-color: #ffffff;
 padding: 5px
 }
 
-#descriptors p {margin: 0;
+/*#descriptors p {margin: 0;
 padding: 2%}
 
 #descriptors {flex-grow: 1;
@@ -65,7 +66,7 @@ padding: 2%;
 #descriptors p {font-size: 4em;
 }
 
-#aasign {
+/*#aasign {
 margin: 0;
 position: absolute;
 right: 3%;
@@ -76,9 +77,9 @@ right: 3%;
 margin: 0;
 width: 15%;
 float: right
-}
+}*/
 
-#signin1 {text-decoration: none;
+/*#signin1 {text-decoration: none;
 padding: 3%;
 flex-grow: 1;
 flex-direction: row;
@@ -86,9 +87,9 @@ text-align: right;
 color: gray;
 display: inline;
 font-size: .5em;
-}
+}*/
 
-#signin2 {padding: 3%;
+/*#signin2 {padding: 3%;
 text-decoration: none;
 color: gray;
 display: inline;
@@ -97,17 +98,16 @@ font-size: .5em;
 
 ul
 {list-style-type: none;
-text-decoration: none}
+text-decoration: none}*/
 
-#tiebank {display: flex;
+/*#tiebank {display: flex;
 flex-direction: row;
-justify-content: center;
-}
+justify-content: center;}*/
 
-#tiebank figcaption {text-align: center;
+/*#tiebank figcaption {text-align: center;
 font-size: 1em;
 font-weight: 300;
-}
+/*}
 #black {width: 200px;}
 #blue {width: 200px;}
 #collegiate {width: 200px;}
@@ -116,17 +116,17 @@ font-weight: 300;
 #graphic {width: 200px;}
 #plaid {width: 200px;}
 #silk {width: 200px;}
-#striped {width: 200px;}
+#striped {width: 200px;}*/
 
-#dress {display: block;
-background-color: #f4f4f4}
+/*#dress {display: block;
+background-color: #f4f4f4}*/
 
-h1 {display: block;
+/*h1 {display: block;
 text-align: center;
 align-self: flex-end; 
 font-size: 6em;
 padding: 3%;
-margin: 0}
+margin: 0}*/
 
 #accessories figcaption {position: absolute;
 top: 10%;
